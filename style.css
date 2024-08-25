@@ -40,10 +40,15 @@ body{
     font-weight: normal;
 }
 
+.age{
+    font-size: 72pt;
+    font-family: "Bungee Shade";
+    color: #422006;
+}
 .card{
     padding: 20px 30px;
     border-radius: 10px;
-    height: 848px;
+    height: 948px;
     width: 600px;
     background-color: #fefce8;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -59,7 +64,7 @@ body{
 .message{
     font-size: 18pt;
     color: #422006;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
 }
 .details{
     font-size: 20pt;
@@ -73,7 +78,7 @@ body{
 .rsvp{
     font-size: 16pt;
     color: #422006;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .image-container{
@@ -81,15 +86,15 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    width: 300px;
-    height: 300px;
-    margin-left: 150px;
+    width: 350px;
+    height: 350px;
+    margin-left: 125px;
     margin-bottom: 40px;
     justify-content: center;
     overflow: hidden;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 25px;
+    border-width: 5px;
 }
 
 .image-container img{
@@ -98,8 +103,3 @@ body{
     object-fit: fill;
 }
 
-.image-container img:nth-child(1){
-    grid-column: span 1;
-    grid-row: span 2;
-
-}
